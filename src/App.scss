@@ -1,0 +1,64 @@
+$bg-color:rgb(16,16,16);
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+    *{
+        margin:0%;
+        padding: 0%;
+        font-family: "Bellefair", serif;
+        background-color:$bg-color;
+
+        &::-webkit-scrollbar{
+            display: none;
+        }
+       
+    }
+    a,h2{
+        color: white;
+    }
+
+    a{
+        
+        text-decoration: none;
+    }
+
+    
+
+.header{
+    height: 100px;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    padding:2rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+    >img{
+        height: 100%;
+
+    }
+    >div{
+       
+        width: 100%;
+        margin-left: 4vmax;
+    
+        
+    >a{
+        margin:2vmax;
+        font-size: 1.3rem;
+        font-weight: 300;
+        
+    }
+    }
+    svg{
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+        
+        &:hover{
+            color:antiquewhite
+        }
+    }
+}
+
+
+
